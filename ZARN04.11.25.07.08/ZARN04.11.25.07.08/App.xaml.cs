@@ -1,4 +1,5 @@
-﻿namespace ZARN04._11._25._07._08
+﻿//App.xaml/.cs: Defines the MAUI application class itself.
+namespace ZARN04._11._25._07._08
 {
     public partial class App : Application
     {

@@ -1,0 +1,1 @@
+Holds shared layout structures like the main application layout (MainLayout.razor) and navigation menu (NavMenu.razor). It also includes scoped CSS files (.razor.css) for these components.

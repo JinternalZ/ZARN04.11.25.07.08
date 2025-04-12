@@ -1,0 +1,6 @@
+This Project is a Razor Class Library (RCL) acting as the central hub for your UI and potentially shared logic.
+    Pages/: Contains the individual, routable pages of your application (e.g., Home.razor, Weather,razor, etc.).
+    Layout/: Holds shared layout structures like the main application layout (MainLayout.razor) and navigation menu (NavMenu.razor). It also includes scoped CSS files (.razor.css) for these components.
+    wwwroot/: Contains static assets (like global CSS in app.css, JavaScript, images like favicon.png and the Bootstrap CSS) shared across applications.
+    Services/: Likely defines interfaces for services that might have different implementations depending on the host (e.g., IFormFactor).
+    Routes.razor

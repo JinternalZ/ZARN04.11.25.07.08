@@ -1,0 +1,3 @@
+//Platforms/: Contains platform-specific code required to bootstrap the MAUI application on Windows (App.xaml.cs), 
+//Android (MainActivity.cs, MainApplication.cs), iOS (AppDelegate.cs, Program.cs), MacCatalyst (AppDelegate.cs, 
+//Program.cs), and Tizen (Main.cs).

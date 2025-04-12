@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿// The entry point for configuring the MAUI app. It sets up MAUI essentials fonts, registers the BlazorWebView, and 
+// crucially, registers device-specific services (like the MAUI implementation of IFormFactor found in ZARN04.11.25.07.08.Services.FormFactor)
+using Microsoft.Extensions.Logging;
 using ZARN04._11._25._07._08.Shared.Services;
 using ZARN04._11._25._07._08.Services;
 
@@ -28,4 +30,5 @@ public static class MauiProgram
 
         return builder.Build();
     }
+
 }
